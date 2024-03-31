@@ -1,5 +1,21 @@
-h1, p {
-   justify-content: center;
-   display: flex;
-   align-items: center;
+h1 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+p {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: System-ui;
+  font-size: 14px;
+  font-weight: Bolder;
+}
+
+body {
+  background: rgb(134, 133, 133);
 }
