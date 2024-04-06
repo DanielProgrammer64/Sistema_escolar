@@ -1,15 +1,42 @@
 * {
   font-size: 25px;
+  justify-content: center;
+  position: relative;
 }
 
 
 h1 {
   justify-content: center;
+  color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   font-family: monospace;
   font-size: 40px;
   font-weight: bolder;
+}
+
+h2 {
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.turma {
+  justify-content: center;
+  display: flex;
+  font-family: Montserrat;
+  font-size: 22px;
+}
+
+.dados_aluno {
+  justify-content: center;
+  display: flex;
+  font-family: Montserrat;
+  font-size: 22px;
 }
 
 p {
@@ -21,6 +48,21 @@ p {
   font-weight: Bolder;
 }
 
-body {
-  background: rgb(134, 133, 133);
+.container .containerLeft {
+  width: 100vw;
+  height: 100vh;
+  background: #4e81c9;
+}
+
+.container .containerRight {
+	position: absolute;
+	height: 90vh;
+  width: 90vw;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 16px;
 }
