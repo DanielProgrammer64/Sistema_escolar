@@ -2,15 +2,17 @@
   font-size: 25px;
   justify-content: center;
   position: relative;
+  margin: 20px;
 }
 
+body {
+  font-family: Montserrat, sans-serif;
+  background-color:rgb(232, 233, 235);
+}
 
 h1 {
-  justify-content: center;
   color: rgb(0, 0, 0);
-  display: flex;
-  align-items: center;
-  font-family: monospace;
+  font-family: sans-serif;
   font-size: 40px;
   font-weight: bolder;
 }
@@ -18,51 +20,35 @@ h1 {
 h2 {
   justify-content: center;
   color: rgb(0, 0, 0);
-  display: flex;
-  align-items: center;
   font-family: monospace;
   font-size: 30px;
   font-weight: bolder;
 }
 
-.turma {
-  justify-content: center;
-  display: flex;
+#turma {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
   font-family: Montserrat;
   font-size: 22px;
+  color: aliceblue;
+  background-color: rgb(44, 43, 43);
 }
 
-.dados_aluno {
-  justify-content: center;
-  display: flex;
+#dados_aluno {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
   font-family: Montserrat;
   font-size: 22px;
+  color: aliceblue;
+  background-color: rgb(44, 43, 43);
+  line-height: 1.7;
 }
 
 p {
-  justify-content: center;
-  display: flex;
-  align-items: center;
   font-family: System-ui;
-  font-size: 14px;
+  font-size: 27px;
   font-weight: Bolder;
 }
 
-.container .containerLeft {
-  width: 100vw;
-  height: 100vh;
-  background: #4e81c9;
-}
-
-.container .containerRight {
-	position: absolute;
-	height: 90vh;
-  width: 90vw;
-  background: #FFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  border-radius: 16px;
-}
