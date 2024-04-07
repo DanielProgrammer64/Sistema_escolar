@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+        * {
+            box-sizing: border-box;
+            font-size: 15px;
+        }
+
+        body {
+            font-family: Montserrat, sans-serif;
+            background-color: aliceblue;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: sans-serif;
+            font-weight: bolder;
+            color: rgb(0, 0, 0);
+            font-size: 40px;
+        }
+
+        h2 {
+            font-family: monospace;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+
+        label {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 5px;
+            display: block;
+            font-weight: bolder;
+        }
+
+        input {
+            width: 70%;
+            margin: 20px;
+            font-family: Montserrat;
+            border-radius: 5px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Formulário de informações básicas: </h1>
+
+    <script src="../mainPage/Sketch.js"></script>
+
+    <label for="nome"> Nome do aluno </label>
+    <input name="nome" type="text" id="nome" placeholder="preencha aqui" />
+
+    <br />
+
+    <label for="idade"> Idade do Aluno </label>
+    <input name="idade" min="15" max="65" type="number" id="idade" placeholder="preencha aqui">
+
+    <br />
+
+    <label for="cpf"> Cpf do Aluno </label>
+    <input name="cpf" type="text" id="cpf" placeholder="preencha aqui">
+
+    <br />
+
+    <label for="nome_do_curso"> Nome do curso </label>
+    <input name="nome_do_curso" type="text" id="nome_do_curso" placeholder="preencha aqui">
+
+    <br />
+
+    <label for="número_de_horas"> Número de horas </label>
+    <input name="número_de_horas" min="15" max="100" type="number" id="número_de_horas" placeholder="preencha aqui">
+
+</body>
+
+</html>

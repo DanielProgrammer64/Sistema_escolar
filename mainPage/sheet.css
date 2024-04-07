@@ -1,13 +1,11 @@
 * {
   font-size: 25px;
-  justify-content: center;
-  position: relative;
   margin: 20px;
 }
 
 body {
   font-family: Montserrat, sans-serif;
-  background-color:rgb(232, 233, 235);
+  background-color:aliceblue
 }
 
 h1 {
@@ -18,7 +16,6 @@ h1 {
 }
 
 h2 {
-  justify-content: center;
   color: rgb(0, 0, 0);
   font-family: monospace;
   font-size: 30px;
