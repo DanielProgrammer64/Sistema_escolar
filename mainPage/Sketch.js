@@ -1,7 +1,7 @@
 let infos = {
   nome: document.getElementById("nome"),
   idade: document.getElementById("idade"),
-  cpf:  document.getElementById("cpf"),
+  cpf: document.getElementById("cpf"),
   dados_curso: {
     nome: document.getElementById("nome_do_curso"),
     numero_de_horas: document.getElementById("número_de_horas"),
@@ -19,12 +19,19 @@ dados_aluno.innerText = dados_aluno_resultado;
 
 // array de notas
 
-let Notas = [Number, Number, Number, Number];
+let Notas = document.getElementById("notas");
 
-Notas[0] = prompt("insira aqui a nota 1");
-Notas[1] = prompt("insira aqui a nota 2");
-Notas[2] = prompt("insira aqui a nota 3");
-Notas[3] = prompt("insira aqui a nota 4");
+let Nota1 = document.getElementById("nota1");
+let Nota2 = document.getElementById("nota2");
+let Nota3 = document.getElementById("nota3");
+let Nota4 = document.getElementById("nota4");
+
+let mediaFinal =
+  (Nota1.valueAsNumber +
+    Nota2.valueAsNumber +
+    Nota3.valueAsNumber +
+    Nota4.valueAsNumber) /
+  4;
 
 console.info(Notas);
 
